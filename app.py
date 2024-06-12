@@ -286,7 +286,7 @@ elif page == "Contact with us":
 
     # Define LinkedIn profiles
     linkedin_profiles = {
-        "Mohammed Alaklabi": "www.linkedin.com/in/mohammed-alaklabi-0450092a4",
+        "Mohammed Alaklabi": "https://www.linkedin.com/in/mohammed-alaklabi-0450092a4",
         "Ahmed Alhassan": "https://www.linkedin.com/in/ahmed-alhassan-4b86242b9/",
         "Abdullah Altuwayjiri": "https://www.linkedin.com/in/abdullah-aaltuwayjiri/",
         "Faisal Alossaimi": "https://www.linkedin.com/in/faisal-alossaimi-1313542a4/"
