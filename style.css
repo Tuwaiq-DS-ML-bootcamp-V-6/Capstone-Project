@@ -1,0 +1,94 @@
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #FFFFFF; /* White color for headings */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding a shadow effect */
+}
+
+/* Button */
+.stButton button {
+    background-color: #006341; /* Dark green button */
+    color: #FFFFFF; /* White text color */
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none; /* Removing default button border */
+    cursor: pointer; /* Changing cursor to pointer on hover */
+    transition: all 0.3s ease; /* Adding smooth transition effect */
+}
+
+.stButton button:hover {
+    background-color: #004025; /* Darker green on hover */
+}
+
+/* Select box */
+.stSelectbox .st-cb {
+    color: #FFFFFF; /* White text color */
+    border: 1px solid #FFFFFF; /* White border */
+    border-radius: 5px;
+    padding: 8px;
+    background-color: transparent; /* Transparent background */
+}
+
+/* Table */
+table {
+    color: #FFFFFF; /* White text color */
+    border-collapse: collapse; /* Collapse table borders */
+    width: 100%;
+}
+
+table th, table td {
+    border: 1px solid #FFFFFF; /* White border */
+    padding: 8px;
+}
+
+table th {
+    background-color: #006341; /* Dark green header */
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1); /* Light gray background for even rows */
+}
+
+table tr:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Lighter gray background on hover */
+}
+
+/* Sidebar */
+.stSidebar {
+    background-color: #3A3D4E; /* Custom sidebar color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adding shadow effect */
+}
+
+.stSidebar h2 {
+    color: #FFFFFF; /* White color for sidebar headings */
+    text-transform: uppercase; /* Convert headings to uppercase */
+}
+
+.stSidebar p {
+    color: #FFFFFF; /* White text color */
+}
+
+/* Metrics styling */
+.metric-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.metric-container .stMetric {
+    background-color: #FFFFFF; /* White background */
+    color: #000000; /* Black text color */
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    margin: 10px;
+    transition: all 0.3s ease; /* Adding smooth transition effect */
+}
+
+.metric-container .stMetric:hover {
+    transform: translateY(-3px); /* Move element up slightly on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increase shadow size on hover */
+}
