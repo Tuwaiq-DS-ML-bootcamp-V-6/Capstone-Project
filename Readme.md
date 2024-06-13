@@ -41,9 +41,8 @@ In conclusion, our project aims to leverage data science techniques to help user
 </p>
 
 ## Future Improvements:
-- Course\Bootcamp enroll from Chatbot.
+- Course/Bootcamp enroll directly from Chatbot
 - Expanding data sources.
---
 - Develop the chatbot interface. 
 
 ## Contact Information
