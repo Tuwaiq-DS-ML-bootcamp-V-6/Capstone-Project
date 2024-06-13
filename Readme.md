@@ -1,4 +1,4 @@
-# Final Project Proposal: [Strategic Resource Solutions]
+# SRS Talent accelerate
 
 ## Introduction Briefly introduce the purpose of this document and provide an overview of the project. Explain the motivation behind choosing this project and its relevance to the field of data science.
 
