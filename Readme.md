@@ -1,76 +1,64 @@
-# Final Project Proposal: [Project Title]
+# [Final Project Proposal: Interview Helper System with AI and Emotion Analysis (JobAId)](https://github.com/ReyadGH/capstone)
+
 
 ## Introduction
-Briefly introduce the purpose of this document and provide an overview of the project. Explain the motivation behind choosing this project and its relevance to the field of data science.
-
-Example:
-> This document serves as the proposal for my final project in the Data Science Bootcamp. The project, titled "[Project Title]", aims to address [a specific problem or question]. This project is chosen due to its potential impact on [related field or industry], and its alignment with my career goals.
+This document serves as the proposal for our final project in the Data Science Bootcamp. The project, titled "Interview Helper System with AI and Emotion Analysis," aims to address the challenge of improving interview evaluations by analyzing facial expressions and emotions. This project is chosen due to its potential impact on the recruitment industry and its alignment with our career goals.
 
 ## Background
-Provide some context about the problem. Why is this project important? Who will it benefit?
-
-Example:
-> [A brief description of the industry or field your project impacts]. The problem of [describe the problem] affects [mention the stakeholders or audience]. Solving this problem will provide benefits such as [list benefits].
+The recruitment industry faces challenges in assessing candidates' non-verbal cues and emotions during interviews. The problem of subjective interview evaluations affects both employers and job seekers. Solving this problem will provide benefits such as more objective hiring decisions, improved interview preparation, and enhanced candidate experience.
 
 ## Project Objectives
-List the specific objectives of the project. What do you hope to achieve by the end of this project?
-
-Example:
-- To build a predictive model that can accurately predict [mention what you are predicting].
-- To analyze the correlation between [mention variables] and [mention outcome].
-- To develop a user-friendly interface for stakeholders to interact with the findings.
+- To develop an AI-based system that can detect facial landmarks and predict emotions during interviews.
+- To integrate audio processing to transcribe and analyze speech content.
+- To create a user-friendly interface for users to practice mock interviews and receive feedback.
 
 ## Data Sources
-Describe the datasets you will use, including their sources, reliability, and any preprocessing steps you plan to take.
-
-Example:
-> The primary dataset for this project will be sourced from [source], which consists of [describe data, e.g., number of entries, fields]. This dataset is chosen for its [mention reasons like comprehensiveness, reliability, etc.]. Preliminary preprocessing will include [mention any cleaning, transformations, or reductions planned].
+The primary dataset for this project will be sourced from publicly available datasets of facial expressions and emotions. These datasets are chosen for their comprehensiveness and reliability. Preliminary preprocessing will include data cleaning, normalization, and augmentation.
 
 ## Methodology
-Outline the methods and technologies you will use in your project. This section can include both the analytical techniques and the tools/software about the following:
+### Data Cleaning and Preprocessing
+- **Analytical techniques**: Standardizing and normalizing data, handling missing values.
+- **Used tools**: Utilizing Python libraries such as Pandas, NumPy, and OpenCV.
 
-- Data Cleaning and Preprocessing
-- Feature Engineering: Outline the steps taken to manipulate or create new features to improve model performance.
-- Hyperparameter Optimization: Explain the process and methods used to fine-tune model hyperparameters.
-- Performance Metric Visuals: Include charts or graphs that illustrate the performance of each model across various metrics.
-- Best Model Determination: Explain the criteria for selecting the best-performing model.
-- Feature and Prediction Insights: Offer an interpretation of how different features influence the model's predictions.
-- Model Development
-  
-Example:
-- **Data Cleaning and Preprocessing**:
-    - Analytical techniques: mention what you have applied here
-    - Used tools: Utilizing Python libraries such as Pandas and NumPy.
-- **Model Development**:
-    - Analytical techniques: mention what you have applied here
-    - Used tools: Applying machine learning algorithms with Scikit-learn to develop the predictive model.
-- **Validation and Testing**: 
-    - Analytical techniques: mention what you have applied here
-    - Used tools: Using cross-validation techniques to ensure the robustness of the model.
+### Model Development
+- **Analytical techniques**: Facial landmark detection using MediaPipe, emotion prediction using convolutional neural networks (CNNs).
+- **Used tools**: Applying machine learning algorithms with TensorFlow, Keras, and MediaPipe to develop the predictive model.
+
+### Validation and Testing
+- **Analytical techniques**: Cross-validation and performance metrics evaluation.
+- **Used tools**: Using cross-validation techniques and Scikit-learn for model validation and evaluation.
 
 ## Results
-Describe what results you anticipated from your project.
-
-Example:
-> By the conclusion of this project, I expect to develop a predictive model that achieves an accuracy rate of at least [mention target percentage]. Additionally, the insights derived from the data will help in understanding [mention what the insights will help understand or decide].
+By the conclusion of this project, I expect to develop a system that accurately detects facial landmarks and predicts emotions with high precision. Additionally, the audio analysis component will provide meaningful insights into the interviewee's responses.
 
 ## Conclusion
-Summarize your proposal and reiterate the importance of your project.
-
-Example:
-> In conclusion, [Project Title] aims to leverage data science techniques to address [mention the problem or question again]. This project is expected to yield [restate key benefits or findings]. I am excited about the potential impacts of this project and look forward to exploring [mention any specific aspect of the project].
+In conclusion, the "Interview Helper System with AI and Emotion Analysis" aims to leverage data science techniques to address the challenges in the recruitment process. This project is expected to yield significant benefits by improving interview evaluations and providing valuable feedback to candidates. I am excited about the potential impacts of this project and look forward to exploring its various aspects.
 
 ## Future Improvements:
-Suggest enhancements and strategies that could be implemented to further develop the project, aiming to achieve more precise and robust outcomes.
+- Enhance the system with more advanced emotion recognition models.
+- Integrate a more comprehensive set of interview questions and scenarios.
+- Develop a mobile application for wider accessibility.
 
 ## Contact Information
-Provide your contact information for further communication.
+For further communication, please contact:
 
 **Group Members:**
-- First Member
-- Second Member
-- Third Member
+- Riyadh Alghamdi [Github](https://github.com/ReyadGH) | [Linkedin](https://www.linkedin.com/in/riyadh-alghamdi-78313a252/)
+- Omar Alhuwaishel [Github](https://github.com/Omar-Alhuwaishel) | [Linkedin](https://www.linkedin.com/in/omar-alhuwaishel/)
+- Tariq Abuwashtan [Github](https://github.com/TariqWashtan) | [Linkedin](https://www.linkedin.com/in/tariq-abuwashtan-4307862a0/)
 
 ---
 
-Remember to tailor each section to your specific project and add any additional sections that might be relevant such as ethical considerations, limitations, etc.
+## Code Implementation
+
+### Dependencies
+- OpenCV
+- MediaPipe
+- SKlearn
+- NumPy
+- Deepgram
+
+### Framworks
+- FastAPI
+- Next.js
+- React
