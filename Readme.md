@@ -2,7 +2,7 @@
 
 --- 
 
-[Check out the Friday Night Streamlit App !](https://friday-night.streamlit.app/)
+[Check out the Friday Night Website !](https://friday-night.streamlit.app/)
 
 # Team Members:
 - Abdullah Altuwayjiri
